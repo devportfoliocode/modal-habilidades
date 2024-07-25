@@ -1,0 +1,90 @@
+/* ----- Reset ----- */
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #dceeff;
+}
+
+
+/* ----- Habilidades ----- */
+.habilidades-box{
+    margin-top: 100px;
+    padding: 0 50px;
+}
+
+.habilidades-titulo{
+    font-size: 2.5rem;
+    letter-spacing:2px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.habilidades-icones {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    max-width: 550px;
+    margin: 0 auto;
+}
+
+.habilidades-tecnologia {
+    background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);    
+    border-radius: 5px;
+    cursor: pointer;
+    filter: drop-shadow(0px 1px 1px #000);
+    outline: 2px solid transparent;
+    padding: 20px;
+}
+
+.habilidades-tecnologia:hover {
+    outline-color: #5271FF;
+    transition: all 1s;
+}
+
+.habilidades-tecnologia svg {
+    fill: #fff;
+    height: 50px;
+}
+
+.habilidades-modal-box{
+    position: relative;
+}
+
+.habilidades-modal {
+    background-color: #fff;
+    border-radius: 5px;
+    filter: drop-shadow(0px 0px 2px #000);
+    left: 50%;
+    margin-top: 20px;
+    max-width: 100%;
+    padding: 20px;
+    position: absolute;
+    transform: translate(-50%);
+    transition: all .5s;
+    width: 500px;
+}
+
+.habilidades-modal-btn {
+    cursor: pointer;
+    height: 25px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.habilidades-modal-texto {
+    line-height: 2;
+    margin-top: 20px;
+}
+
+.habilidades-modal-fechar {
+    opacity: 0 !important;
+    visibility: hidden !important;
+    transition: all .5s;
+}
